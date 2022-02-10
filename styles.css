@@ -1,0 +1,337 @@
+@font-face {
+	font-family: 'MuseoSansCyrl-500';
+	src: url('./fonts/museosanscyrl-500.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/museosanscyrl-500.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/museosanscyrl-500.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/museosanscyrl-500.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/museosanscyrl-500.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/museosanscyrl-500.svg#museosanscyrl-500') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    font-family: 'MuseoSansCyrl-500', Arial;
+    max-width: 1280px;
+    margin: auto;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+header {
+    margin: 40px;
+    background-color: #93BBEA;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.main-title-label {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+}
+
+.main-title-description {
+    max-width: 535px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 140%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 4px auto;
+}
+
+.header-navigation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+    margin-top: 40px;
+}
+
+.header-button {
+    width: 160px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto 4px;
+}
+
+.header-button:hover {
+    background:lightskyblue;
+}
+
+.header-button img {
+    margin-right: 8px;
+    color: #1A1A1A;
+}
+
+.header-button span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.social-media {
+    margin: 80px 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(26, 26, 26, 0.05);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.social-media-label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    color: #1A1A1A;
+    }
+
+.social-media-motto {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #1A1A1A;
+    margin-top: 16px;
+}
+
+.social-media-contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-item {
+    width: 56px;
+    height: 56px;
+    background: #F9F9F9;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+}
+
+.social-media-item:hover {
+    background: lightgrey;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #1A1A1A;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.faq-item {
+    width: 282px;
+    height: 160px;
+    padding: 16px 0 16px 16px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.faq-item:hover {
+    background: #f9f9f9;
+}
+
+.faq-label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1A1A1A;
+    margin-bottom: 8px;
+}
+
+.faq-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+    color: #949494;
+}
+
+.faq-image {
+    margin-left: 12px;
+}
+
+.gallery {
+    width: 100%;
+  }
+  
+.gallery-cell {
+    width: 22%;
+    margin-right: 24px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 80px 140px;
+}
+
+.information-item {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+}
+
+.information-item:hover {
+    background: #f9f9f9;
+}
+
+.information-item img {
+    height: 11px;
+}
+
+.information-text {
+    max-width: 500px;
+}
+
+.information-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 140%;
+    color: #949494;
+}
+
+@media screen and (max-width: 1280px) {
+    .header-left-image, .header-right-image {
+        display: none;
+    }
+    .faq {
+        margin: auto 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .social-media {
+        flex-direction: column;
+    }
+
+    .social-media-labels {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media-contacts {
+        margin-top: 20px;
+    }
+
+    .gallery-cell {
+        width: 30%;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    header, .social-media, .faq, .information, .main-title {
+        margin: 20px;
+    }
+
+    .header-navigation {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .header-button {
+        margin-bottom: 20px;
+    }
+
+    .gallery-cell {
+        width: 48%;
+    }
+
+    .main-title-label, .social-media-motto, .secondary-title {
+        font-size: 30px;
+    }
+    .faq-label {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery-cell {
+        width: 60%;
+    }
+
+    .social-media-item {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header, .social-media, .faq, .information, .main-title {
+        margin: 8px;
+    }
+    .gallery-cell {
+        width: 90%;
+    }
+    .header-button {
+        margin-bottom: 10px;
+    }
+    .social-media-contacts {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .social-media-item {
+        margin-bottom: 8px;
+    }
+    
+}
